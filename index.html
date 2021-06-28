@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Change Font Size</title>
+	<link rel="stylesheet" href="dark_style.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+	<div class="container">
+		<div class="buttons">
+			<span title="Normal" class="btn active" onclick="document.getElementById('text').style.fontSize = '1em';">A</span>
+			<span title="Large" class="btn" onclick="document.getElementById('text').style.fontSize = '1.25em';">A</span>
+			<span title="Extra Large" class="btn" onclick="document.getElementById('text').style.fontSize = '1.75em';">A</span>
+		</div>
+		<div class="content" id="text">
+			<h2>Change Font Size</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam, est officia ad veniam corporis error illum laboriosam soluta corrupti illo dolore in ipsam possimus saepe beatae eveniet quos repellendus voluptate ipsum assumenda. Ad, non odit tempore aliquid unde consequatur, voluptatum a consequuntur alias quod totam sunt nulla natus exercitationem tempora aspernatur earum vitae, possimus quia eveniet animi eaque. Quod error, non delectus animi cumque minus odit expedita consequuntur reiciendis sapiente voluptate quas explicabo quisquam, sed numquam necessitatibus in quibusdam modi aliquid, quia! Doloribus unde voluptates maxime? Mollitia optio assumenda numquam tempora, repudiandae illum, accusantium, recusandae molestias, dolorum sint nam earum temporibus. Voluptates esse reiciendis id cumque repudiandae, rerum aliquam aliquid rem suscipit nesciunt odio hic. Enim cum, quas accusamus.	</p>
+		</div>
+	</div>
+<!-- 
+	<button class="light"></button>
+	<button class="dark"></button>
+	 -->
+	<div class="input-box">
+		<label for="theme">Dark Theme</label>
+		<input type="checkbox" name="theme" id="theme">
+	</div>
+
+	<script src="theme.js"></script>
+	<script src="fz_btn.js"></script>
+
+	</body>
+	</html>

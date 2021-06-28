@@ -1,0 +1,16 @@
+.dark{
+	background: #333;
+}
+
+.dark .container .buttons .btn{
+	background: #666;
+	color: #e0e0e0;
+}
+.dark .container .buttons .btn.active{
+	background: #ddd;
+	color: #333;
+}
+.dark .input-box,
+.dark .container .content{
+	color: #e0e0e0;
+}
